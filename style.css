@@ -11,6 +11,7 @@ img{
 body{
     font-family:sans-serif;
     overflow: hidden;
+    background-color: rgb(24, 24, 24);
 }
 .slider-container{
     margin: 10px auto;
@@ -64,12 +65,12 @@ body{
     background-color: rgb(1, 68, 1);
 }
 .slider-controls .previous.disable{
-    background-color: rgba(0, 0, 0, 0.377);
+    background-color:rgba(0, 128, 0, 0.39);
     color: white;
     cursor: no-drop;
 }
 .slider-controls .next.disable{
-    background-color: rgba(0, 0, 0, 0.377);
+    background-color: rgba(0, 128, 0, 0.39);
     color: white;
     cursor: no-drop;
 }
